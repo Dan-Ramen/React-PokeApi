@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Pokedex (Using PokeApi)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+When assigned with this task of creating my own application using an API and React, I originally had a way more ambitious project in mind. Going back to my Battleship project, I had wanted to create a functioning pokemon gym as a game, with character movement using canvas, creating a custom gym layout with a puzzle and trainers with predetermined pokemon teams, ontop of that, making a nintendo blog page with little fan games made by me also using react. But I got too far ahead of myself and didn't anticipate the amount of time it would take to truely understand how to implement everything and make my vision and its scope a reality.
 
-## Available Scripts
+So, I shelved that project and decided to make a pokedex that shows base stats of each pokemon ontop of different abilities the pokemon can have.
 
-In the project directory, you can run:
+[PokeApi Webpage](https://pokeapi.co/)
 
-### `npm start`
+The link above takes you to the PokeApi webpage where you can read up on documentation and learn how to use it in your own app as well!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+====================
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use my App
 
-### `npm test`
+Pretty straight forward, Click on the 'Next' or 'Previous' buttons to go to the next or previous pages in the pokedex. Click on the pokemon's card to get its stats displayed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+====================
 
-### `npm run build`
+# Technologies Used
+### React
+> The bread and butter of this operation...or just the bread in this case since its how this application runs XD
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Axios (Dependency)
+> 'npm i axios' Axios is a promise-based HTTP library that lets developers make requests to either their own or a third-party server to fetch data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+====================
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# How I Built my Game
 
-### `npm run eject`
+### Where do I start?
+Well, let me be blunt, this wasn't my first choice. It ended up being a back-up decision due to my ambition and scope being too grand for my time alotted, I guess I had more confidence in my skills before-hand, but outside influences did affect my ability to work on this project as many non-coding issues came up during the week that affected my mental and emotional health.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### The Main Component of my App:
+The butter of this little app, _./Components/Main.jsx_: setting up both the html layout for how the pokedex will be displayed as well as all of the fetching and state-setting to your heart's content! (Or rather my heart's content, I did code this app afterall)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thankfully the use of youtube and the API documentation made it easier to understand how to format all the fetching and such, React is definetely not my strong suit but I feel slightly more confident in my abilities after this project. (Keyword = "SLIGHTLY")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+====================
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Acknowledgments
+Like my Battleship project, I didn't really work with many people in regards to my code, most of my "Help" was done through extensive solo research on syntax, as well as using youtube to look into other dependencies (Thus Axios was born, well...used in my code, same thing though!).
 
-## Learn More
+Some websites used include:
+### PokeAPI Docs
+- [PokeAPI Docs](https://pokeapi.co/docs/v2)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Youtube Vids
+- [Chris Stayte](https://www.youtube.com/watch?v=XehSJF85F38)
+- [Arslan](https://www.youtube.com/watch?v=cNmn72kiZWU)
+- [Tyler Potts](https://www.youtube.com/watch?v=LxOMWk7K0QE)
